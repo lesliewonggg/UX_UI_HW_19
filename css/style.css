@@ -59,6 +59,12 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
+a {
+  color: #000083;
+  text-decoration: none;
+}
+
 .row {
   display: flex;
 }
