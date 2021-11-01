@@ -25,19 +25,6 @@ body {
 
 }
 
-.containertext {
-  width: 900px;
-  height: 600px;
-  position: fixed;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-}
-
-.containertext a {
-  color: #000083;
-}
-
 /* images */
 
 .images {
@@ -61,6 +48,15 @@ body {
   left: 50%;
   transform: translate(-50%, -31%);
   align-content: space-between;
+}
+
+.containertext {
+  width: 900px;
+  height: 600px;
+  position: fixed;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
 }
 
 .row {
@@ -98,16 +94,7 @@ h2 {
   ;
 }
 
-#gridContainer2 {
-  margin: 0px 5%;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 214px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "michi plantae ourhouse"
-  ;
-}
+
 
 /* footer */
 
