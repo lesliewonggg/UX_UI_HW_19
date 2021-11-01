@@ -94,7 +94,17 @@ h2 {
   ;
 }
 
+#gridContainer2 {
+  margin: 0px 5%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 214px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "michi plantae ourhouse"
+  ;
 
+}
 
 /* footer */
 
